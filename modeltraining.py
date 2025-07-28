@@ -7,7 +7,7 @@ import pickle
 from nlp_preprocessing import clean_text
 
 # Load dataset
-df = pd.read_csv("C:\\Users\\anand\\Codes\\Neural Networks\\Fake News Detection\\fake_and_real_news.csv")
+df = pd.read_csv("Download the csv files from Kaggle. Use link https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset")
 df['text'] = df['text'].fillna('')
 df['label'] = df['label'].map({'FAKE': 0, 'REAL': 1})
 
