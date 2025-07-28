@@ -1,0 +1,6 @@
+pandas
+scikit-learn
+newspaper3k
+lxml-html-clean
+numpy
+tqdm
